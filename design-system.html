@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
+            rel="stylesheet">
+
+    <link href="./index.css" rel="stylesheet">
+    <script defer src="./index.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Solution to Frontend Mentor's Space tourism website design challenge.">
+    <title>Frontend Mentor | Space tourism website | Design system</title>
+  </head>
+  <body class="design-system">
+
+    <header class="section flex" style="width: 100%; justify-content: space-between; align-items: center">
+      <div>
+        <img src="./assets/shared/logo.svg" alt="space tourism logo" width="48" height="48">
+      </div>
+      <h1 class="uppercase text-accent">Style Guide</h1>
+    </header>
+
+    <main>
+
+      <!-- Section - Colors -->
+      <section class="section flow" style="--flow-space: 3rem;" id="colors">
+        <h2 class="numbered-title">
+          <span>01</span> Colors</h2>
+
+        <div>
+          <div class="subsection__heading">
+            <h3 class="text-accent">Blue</h3>
+          </div>
+
+          <div class="grid grid-auto-cols" style="--col-min-size: 12rem; --gap: 2rem;">
+            <div class="flow" style="flex-grow: 1; --flow-space: 1.5rem;">
+              <div class="color-swatch bg-dark text-white ff-serif fs-500">#0B0D17</div>
+              <div>
+                <p class="label-value-pair">
+                  <span class="text-accent">HSL</span>
+                  <span>230&deg;, 35%, 7%</span></p>
+                <p class="label-value-pair">
+                  <span class="text-accent">RGB</span>
+                  <span>11, 13, 23</span></p>
+              </div>
+            </div>
+            <div class="flow" style="flex-grow: 1; --flow-space: 1.5rem;">
+              <div class="color-swatch bg-accent text-dark ff-serif fs-500" style="">#D0D6F9</div>
+              <div>
+                <p class="label-value-pair">
+                  <span class="text-accent">HSL</span>
+                  <span>231&deg;, 77%, 90%</span></p>
+                <p class="label-value-pair">
+                  <span class="text-accent">RGB</span>
+                  <span>208, 214, 249</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="subsection__heading">
+            <h3 class="text-accent">White</h3>
+          </div>
+          <div class="flow" style="flex-grow: 1; --flow-space: 1.5rem; max-width: calc(50% - 1rem);">
+            <div class="color-swatch bg-white text-dark ff-serif fs-500">#FFFFFF</div>
+            <div>
+              <p class="label-value-pair">
+                <span class="text-accent">HSL</span>
+                <span>0&deg;, 0%, 100%</span></p>
+              <p class="label-value-pair">
+                <span class="text-accent">RGB</span>
+                <span>255, 255, 255</span></p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- Section - Typography -->
+      <section class="section flow" style="--flow-space: 3rem;" id="typography">
+        <h2 class="numbered-title">
+          <span>02</span> Typography</h2>
+
+        <div class="grid grid-auto-cols" style="--col-min-size: 28rem; --gap: 4rem;">
+
+          <!-- Typography - column 1 -->
+          <div class="flow" style="flex-basis: 100% --flow-space: 4rem;">
+
+            <div>
+              <div class="subsection__heading">
+                <h3 class="text-accent">Text Preset 1 - Bellefair Regular</h3>
+                <p class="text-accent">144px - 171.9% Line Height (Normal) - 0px Letter Spacing</p>
+              </div>
+              <p class="fs-900 ff-serif uppercase">Earth</p>
+            </div>
+
+            <div>
+              <div class="subsection__heading">
+                <h3 class="text-accent">Text Preset 2 - Bellefair Regular</h3>
+                <p class="text-accent">100px - 114.6% Line Height (Normal) - 0px Letter Spacing</p>
+              </div>
+              <p class="fs-800 ff-serif uppercase">Venus</p>
+            </div>
+
+            <div>
+              <div class="subsection__heading">
+                <h3 class="text-accent">Text Preset 3 - Bellefair Regular</h3>
+                <p class="text-accent">56px - 64.2% Line Height (Normal) - 0px Letter Spacing</p>
+              </div>
+              <p class="fs-700 ff-serif uppercase">Jupiter &amp; Saturn</p>
+            </div>
+
+            <div>
+              <div class="subsection__heading">
+                <h3 class="text-accent">Text Preset 4 - Bellefair Regular</h3>
+                <p class="text-accent">32px - 36.7% Line Height (Normal) - 0px Letter Spacing</p>
+              </div>
+              <p class="fs-600 ff-serif uppercase">Uranus, Neptune, &amp; Pluto</p>
+            </div>
+
+            <div>
+              <div class="subsection__heading">
+                <h3 class="text-accent">Text Preset 5 - Barlow Condensed Regular</h3>
+                <p class="text-accent">28px - 33.6% Line Height (Normal) - 4px Letter Spacing</p>
+              </div>
+              <p class="fs-500 ff-sans-cond uppercase letter-spacing-1 text-accent">Haumea, Sedna, Eris, &amp; Ceres</p>
+            </div>
+          </div>
+
+          <!-- Typography - column 2 -->
+          <div class="flow" style="flex-basis: 100%; --flow-space: 4rem;">
+            <div>
+              <div class="subsection__heading">
+                <h3 class="text-accent">Text Preset 6 - Bellefair Regular</h3>
+                <p class="text-accent">28px - 32.1% Line Height (Normal) - 0px Letter Spacing</p>
+              </div>
+              <p class="fs-500 ff-serif uppercase">384,400 km</p>
+            </div>
+            <div>
+              <div class="subsection__heading">
+                <h3 class="text-accent">Text Preset 7 - Barlow Condensed Regular</h3>
+                <p class="text-accent">14px - 16.8% Line Height (Normal) - 2px Letter Spacing</p>
+              </div>
+              <p class="fs-200 ff-sans-cond uppercase letter-spacing-3">Avg. Distance</p>
+            </div>
+            <div>
+              <div class="subsection__heading">
+                <h3 class="text-accent">Text Preset 8 - Barlow Condensed Regular</h3>
+                <p class="text-accent">16px - 19.2% Line Height (Normal) - 2px Letter Spacing</p>
+              </div>
+              <p class="fs-300 ff-sans-cond uppercase letter-spacing-2">Europa</p>
+            </div>
+            <div>
+              <div class="subsection__heading">
+                <h3 class="text-accent">Text Preset 9 - Barlow Regular</h3>
+                <p class="text-accent">18px - 180% Line Height - 0px Letter Spacing</p>
+              </div>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section - Spacing -->
+      <section class="section flow" style="--flow-space: 3rem;" id="spacing">
+        <h2 class="numbered-title">
+          <span aria-hidden="true">03</span> Spacing</h2>
+
+        <div class="grid grid-auto-cols" style="--col-min-size: 8rem; --gap: 2rem;">
+          <div class="flow" style="--flow-space: 1.5rem;">
+            <div class="label-value-pair text-accent">
+              <span>1600</span>
+              <span>128px</span></div>
+            <div class="box bg-accent w-1600"></div>
+          </div>
+
+          <div class="flow" style="--flow-space: 1.5rem;">
+            <div class="label-value-pair text-accent">
+              <span>1200</span>
+              <span>96px</span></div>
+            <div class="box bg-accent w-1200"></div>
+          </div>
+
+          <div class="flow" style="--flow-space: 1.5rem;">
+            <div class="label-value-pair text-accent">
+              <span>1000</span>
+              <span>80px</span></div>
+            <div class="box bg-accent w-1000"></div>
+          </div>
+
+          <div class="flow" style="--flow-space: 1.5rem;">
+            <div class="label-value-pair text-accent">
+              <span>800</span>
+              <span>64px</span></div>
+            <div class="box bg-accent w-800"></div>
+          </div>
+
+          <div class="flow" style="--flow-space: 1.5rem;">
+            <div class="label-value-pair text-accent">
+              <span>600</span>
+              <span>48px</span></div>
+            <div class="box bg-accent w-600"></div>
+          </div>
+
+          <div class="flow" style="--flow-space: 1.5rem;">
+            <div class="label-value-pair text-accent">
+              <span>500</span>
+              <span>40px</span></div>
+            <div class="box bg-accent w-500"></div>
+          </div>
+
+          <div class="flow" style="--flow-space: 1.5rem;">
+            <div class="label-value-pair text-accent">
+              <span>400</span>
+              <span>32px</span></div>
+            <div class="box bg-accent w-400"></div>
+          </div>
+
+          <div class="flow" style="--flow-space: 1.5rem;">
+            <div class="label-value-pair text-accent">
+              <span>300</span>
+              <span>24px</span></div>
+            <div class="box bg-accent w-300"></div>
+          </div>
+
+          <div class="flow" style="--flow-space: 1.5rem;">
+            <div class="label-value-pair text-accent">
+              <span>200</span>
+              <span>16px</span></div>
+            <div class="box bg-accent w-200"></div>
+          </div>
+
+          <div class="flow" style="--flow-space: 1.5rem;">
+            <div class="label-value-pair text-accent">
+              <span>150</span>
+              <span>12px</span></div>
+            <div class="box bg-accent w-150"></div>
+          </div>
+
+          <div class="flow" style="--flow-space: 1.5rem;">
+            <div class="label-value-pair text-accent">
+              <span>100</span>
+              <span>8px</span></div>
+            <div class="box bg-accent w-100"></div>
+          </div>
+
+          <div class="flow" style="--flow-space: 1.5rem;">
+            <div class="label-value-pair text-accent">
+              <span>50</span>
+              <span>4px</span></div>
+            <div class="box bg-accent w-50"></div>
+          </div>
+
+          <div class="flow" style="--flow-space: 1.5rem;">
+            <div class="label-value-pair text-accent">
+              <span>25</span>
+              <span>2px</span></div>
+            <div class="box bg-accent w-25"></div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- Section - Components -->
+      <section class="section flow" style="--flow-space: 3rem;" id="components">
+        <h2 class="numbered-title">
+          <span aria-hidden="true">04</span> Components</h2>
+
+        <!-- Navigation Menu -->
+        <div class="flow" style="--flow-space: 3rem;" id="navigation-menu">
+          <div class="subsection__heading">
+            <h3 class="text-accent">Navigation Menu</h3>
+          </div>
+
+          <div id="navigation-menu--tablet">
+            <h4>Desktop and Tablet</h4>
+            <div class="inner-section">
+              <ul class="navigation-list underline-indicators flex">
+                <li class="active">
+                  <a class="ff-sans-cond uppercase text-white letter-spacing-2" href="#">
+                    <span aria-hidden="true">01</span>Menu</a>
+                </li>
+                <li>
+                  <a class="ff-sans-cond uppercase text-white letter-spacing-2" href="#">
+                    <span aria-hidden="true">02</span>Menu</a>
+                </li>
+                <li>
+                  <a class="ff-sans-cond uppercase text-white letter-spacing-2" href="#">
+                    <span aria-hidden="true">03</span>Menu</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="navigation-menu--mobile">
+            <h4>Mobile</h4>
+            <div class="inner-section" style="max-width: 400px">
+              <ul class="navigation-list underline-indicators flex">
+                <li class="active">
+                  <a class="ff-sans-cond uppercase text-white letter-spacing-2" href="#">
+                    <span aria-hidden="true">01</span>Menu</a>
+                </li>
+                <li>
+                  <a class="ff-sans-cond uppercase text-white letter-spacing-2" href="#">
+                    <span aria-hidden="true">02</span>Menu</a>
+                </li>
+                <li>
+                  <a class="ff-sans-cond uppercase text-white letter-spacing-2" href="#">
+                    <span aria-hidden="true">03</span>Menu</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Tabs Menu -->
+        <div>
+          <div class="subsection__heading">
+            <h3 class="text-accent">Tabs Menu</h3>
+          </div>
+          <div class="tab-list underline-indicators flex" role="tablist">
+            <button aria-selected="true" role="tab" class="uppercase ff-sans-cond bg-transparent text-accent letter-spacing-2">Moon</button>
+            <button aria-selected="false" role="tab" class="uppercase ff-sans-cond bg-transparent text-accent letter-spacing-2">Mars</button>
+            <button aria-selected="false" role="tab" class="uppercase ff-sans-cond bg-transparent text-accent letter-spacing-2">Europa</button>
+            <button aria-selected="false" role="tab" class="uppercase ff-sans-cond bg-transparent text-accent letter-spacing-2">Titan</button>
+          </div>
+        </div>
+
+        <!-- Small Pagination -->
+        <div>
+          <div class="subsection__heading">
+            <h3 class="text-accent">Small Pagination</h3>
+          </div>
+          <div class="dot-indicators flex" role="tablist">
+            <button aria-selected="true" role="tab">
+              <span class="sr-only">Slide title</span></button>
+            <button aria-selected="false" role="tab">
+              <span class="sr-only">Slide title</span></button>
+            <button aria-selected="false" role="tab">
+              <span class="sr-only">Slide title</span></button>
+            <button aria-selected="false" role="tab">
+              <span class="sr-only">Slide title</span></button>
+          </div>
+        </div>
+
+        <!-- Large Pagination -->
+        <div>
+          <div class="subsection__heading">
+            <h3 class="text-accent">Large Pagination</h3>
+          </div>
+          <div class="number-indicators flex" role="tablist">
+            <button aria-selected="true" role="tab" class="ff-serif bg-dark text-accent">1</button>
+            <button aria-selected="false" role="tab" class="ff-serif bg-dark text-accent">2</button>
+            <button aria-selected="false" role="tab" class="ff-serif bg-dark text-accent">3</button>
+          </div>
+        </div>
+
+        <!-- Display Button -->
+        <div class="flow" style="--flow-space: 3rem;" id="display-button">
+          <div class="subsection__heading">
+            <h3 class="text-accent">Display Button</h3>
+          </div>
+
+          <div id="display-button--mobile">
+            <h4>Mobile</h4>
+            <div class="inner-section" style="max-width: 400px">
+              <a href="#" class="display-button bg-white text-dark ff-serif fs-600 uppercase">Explore</a>
+            </div>
+          </div>
+
+          <div id="display-button--tablet">
+            <h4>Desktop and Tablet</h4>
+            <div class="inner-section" style="max-width: 400px">
+              <a href="#" class="display-button bg-white text-dark ff-serif fs-600 uppercase" style="--button-size: 17rem; --button-font-size: 2rem">Explore</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </body>
+</html>
