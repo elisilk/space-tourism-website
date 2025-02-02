@@ -533,14 +533,12 @@ select {
     --underline-gap: 0.5rem;
     position: fixed;
     z-index: 1000;
-    /* inset: 0 0 0 30%; */
     height: 100vb;
     width: 70vi;
     top: 0;
     left: 100%;
     padding-block: min(20rem, 15vh);
     padding-inline: 2rem 0;
-    /* transform: translateX(100%); */
     transition: transform 500ms ease-in-out;
   }
 
