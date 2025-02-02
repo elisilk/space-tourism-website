@@ -51,7 +51,7 @@ Users should be able to:
 
 ### A strong foundation
 
-The Frontend Mentor [Advanced CSS techniques](https://www.frontendmentor.io/learning-paths/advanced-css-techniques-vdOtKjIC4V) learning path, presented this challeng following [Performance optimization](https://www.frontendmentor.io/learning-paths/advanced-css-techniques-vdOtKjIC4V/steps/6747d0a9d54b5cb1dee3f39b/article/read) article. Even before getting to the performance aspects of the solution, there was a lot to work through with the multi-page site. Fortunately, there was a great resource available of [Kevin Powell](https://www.kevinpowell.co/) walking through his approach to solving this particular challenge, and so I started with that:
+The Frontend Mentor [Advanced CSS techniques](https://www.frontendmentor.io/learning-paths/advanced-css-techniques-vdOtKjIC4V) learning path, presented this challenge following [Performance optimization](https://www.frontendmentor.io/learning-paths/advanced-css-techniques-vdOtKjIC4V/steps/6747d0a9d54b5cb1dee3f39b/article/read) article. Even before getting to the performance aspects of the solution, there was a lot to work through with the multi-page site. Fortunately, there was a great resource available of [Kevin Powell](https://www.kevinpowell.co/) walking through his approach to solving this particular challenge, and so I started with that:
 
 [Build a Space Travel Website with Frontend Mentor by Kevin Powell on Scrimba](https://scrimba.com/build-a-space-travel-website-c014)
 
